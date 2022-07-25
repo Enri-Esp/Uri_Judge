@@ -1,0 +1,5 @@
+A, B = input().split()
+A=int(A)
+B=int(B)
+if(B<0): print("{0} {1}".format(-(A//-B),A+(A//-B)*B))
+else: print("{0} {1}".format(A//B,A%B))
